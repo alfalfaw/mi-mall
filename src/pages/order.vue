@@ -1,18 +1,18 @@
 <template>
   <div>
-    <nav-header></nav-header>
+    <order-header></order-header>
     <router-view></router-view>
-    <nav-footer></nav-footer>
+    <order-footer></order-footer>
   </div>
 </template>
 
 <script>
-import NavFooter from '../components/NavFooter'
-import NavHeader from '../components/NavHeader'
+import OrderFooter from '../components/OrderFooter'
+import OrderHeader from '../components/OrderHeader'
 export default {
   components: {
-    NavFooter,
-    NavHeader
+    OrderHeader,
+    OrderFooter
   }
 }
 </script>
